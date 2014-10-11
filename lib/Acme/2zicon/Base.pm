@@ -5,7 +5,7 @@ use warnings;
 use DateTime;
 use base qw(Class::Accessor);
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 __PACKAGE__->mk_accessors(qw(
     name_ja
@@ -19,6 +19,7 @@ __PACKAGE__->mk_accessors(qw(
     age
     blood_type
     hometown
+    introduction
     twitter
 ));
 
@@ -39,6 +40,7 @@ sub _initialize {
     $self->{name_ja} = $self->family_name_ja.$self->first_name_ja;
     $self->{name_en} = $self->first_name_en.' '.$self->family_name_en;
     $self->{age}     = $self->_calculate_age;
+    $self->{introduction} = $self->_introduction($info{introduction});
 
     return 1;
 }
@@ -67,6 +69,12 @@ sub _datetime_from_date {
         month => $month,
         day   => $day,
     );
+}
+
+sub _introduction {
+    my ($self, $introduction) = @_;
+    $introduction =~ s/\[(\w+)\]/$self->{$1}/g;
+    return $introduction;
 }
 
 1;

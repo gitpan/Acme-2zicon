@@ -20,6 +20,6 @@ lib/Acme/2zicon/YoshimuraNana.pm
 minil.toml
 t/00_compile.t
 t/01_members.t
-t/02_musume.t
+t/02_2zicon.t
 META.yml
 MANIFEST
