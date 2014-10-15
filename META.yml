@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build::Tiny: '0.035'
 dynamic_config: 0
-generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142690'
+generated_by: 'Minilla/v2.1.3, CPAN::Meta::Converter version 2.142690'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,47 +26,47 @@ no_index:
 provides:
   Acme::2zicon:
     file: lib/Acme/2zicon.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::Base:
     file: lib/Acme/2zicon/Base.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::KinoshitaHiyori:
     file: lib/Acme/2zicon/KinoshitaHiyori.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::MatobaKarin:
     file: lib/Acme/2zicon/MatobaKarin.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::NagataMinari:
     file: lib/Acme/2zicon/NagataMinari.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::NakamuraAkari:
     file: lib/Acme/2zicon/NakamuraAkari.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::NemotoNagi:
     file: lib/Acme/2zicon/NemotoNagi.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::NishiNanami:
     file: lib/Acme/2zicon/NishiNanami.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::OkumuraNonoka:
     file: lib/Acme/2zicon/OkumuraNonoka.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::ShigematsuYuka:
     file: lib/Acme/2zicon/ShigematsuYuka.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::SuyamaEmiri:
     file: lib/Acme/2zicon/SuyamaEmiri.pm
-    version: v0.2.1
+    version: v0.2.2
   Acme::2zicon::YoshimuraNana:
     file: lib/Acme/2zicon/YoshimuraNana.pm
-    version: v0.2.1
+    version: v0.2.2
 requires:
   Class::Accessor: '0'
   DateTime: '0'
   perl: '5.008001'
 resources:
-  bugtracker: https://github.com/catatsuy/acme-2zicon/issues
-  homepage: https://github.com/catatsuy/acme-2zicon
-  repository: git://github.com/catatsuy/acme-2zicon.git
-version: 0.2.1
+  bugtracker: https://git@github.com/catatsuy/acme-2zicon/issues
+  homepage: https://git@github.com/catatsuy/acme-2zicon
+  repository: git://git@github.com/catatsuy/acme-2zicon.git
+version: 0.2.2
 x_authority: cpan:CATATSUY
