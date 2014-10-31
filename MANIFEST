@@ -16,6 +16,7 @@ lib/Acme/2zicon/NishiNanami.pm
 lib/Acme/2zicon/OkumuraNonoka.pm
 lib/Acme/2zicon/ShigematsuYuka.pm
 lib/Acme/2zicon/SuyamaEmiri.pm
+lib/Acme/2zicon/TsurumiMoe.pm
 lib/Acme/2zicon/YoshimuraNana.pm
 minil.toml
 t/00_compile.t
