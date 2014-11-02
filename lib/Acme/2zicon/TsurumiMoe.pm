@@ -5,7 +5,7 @@ use warnings;
 
 use base qw(Acme::2zicon::Base);
 
-our $VERSION = '0.3';
+our $VERSION = '0.3.1';
 
 sub info {
     my $self = shift;
@@ -18,7 +18,7 @@ sub info {
         birthday       => $self->_datetime_from_date('1996.12.05'),
         blood_type     => 'A',
         hometown       => '東京都',
-        introduction   => "未発表",
+        introduction   => "世界に萌えを発信！\n＼受信！／\n[hometown]出身[age]歳。\n髪の毛ふわふわ天然ガール。\nもえこと[name_ja]です。",
         twitter        => 'tsurumi_moe',
     );
 }
