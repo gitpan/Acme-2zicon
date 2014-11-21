@@ -56,55 +56,55 @@
    "provides" : {
       "Acme::2zicon" : {
          "file" : "lib/Acme/2zicon.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::Base" : {
          "file" : "lib/Acme/2zicon/Base.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::KinoshitaHiyori" : {
          "file" : "lib/Acme/2zicon/KinoshitaHiyori.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::MatobaKarin" : {
          "file" : "lib/Acme/2zicon/MatobaKarin.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::NagataMinari" : {
          "file" : "lib/Acme/2zicon/NagataMinari.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::NakamuraAkari" : {
          "file" : "lib/Acme/2zicon/NakamuraAkari.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::NemotoNagi" : {
          "file" : "lib/Acme/2zicon/NemotoNagi.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::NishiNanami" : {
          "file" : "lib/Acme/2zicon/NishiNanami.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::OkumuraNonoka" : {
          "file" : "lib/Acme/2zicon/OkumuraNonoka.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::ShigematsuYuka" : {
          "file" : "lib/Acme/2zicon/ShigematsuYuka.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::SuyamaEmiri" : {
          "file" : "lib/Acme/2zicon/SuyamaEmiri.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::TsurumiMoe" : {
          "file" : "lib/Acme/2zicon/TsurumiMoe.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       },
       "Acme::2zicon::YoshimuraNana" : {
          "file" : "lib/Acme/2zicon/YoshimuraNana.pm",
-         "version" : "v0.3.1"
+         "version" : "0.4"
       }
    },
    "release_status" : "stable",
@@ -118,6 +118,6 @@
          "web" : "https://git@github.com/catatsuy/acme-2zicon"
       }
    },
-   "version" : "0.3.1",
+   "version" : "0.4",
    "x_authority" : "cpan:CATATSUY"
 }
